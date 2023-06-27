@@ -1,4 +1,6 @@
-body{background-color: black}
+body{
+    background-color: black;
+}
 
 .main{
     height: 500px;
@@ -11,6 +13,35 @@ body{background-color: black}
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.button{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{text-decoration: none;}
+
+@keyframes glow{
+    100%{box-shadow: 0px 0px 80px yellow;}
+}
+
+button{
+    font-size: 150px;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    display: block;
+    border-radius: 20px;
+    background-color: rgb(5, 255, 5);
+    color: white;
+}
+
+button:hover{
+    animation: glow;
+    animation-duration: 5s;
 }
 
 .snake{
