@@ -3,6 +3,32 @@ body{background-color: black}
 .main{
     height: 500px;
     border: 10px solid white;
+    background-color: rgb(71, 71, 71);
     margin-left: 20px;
     margin-right: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.snake{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(5, 255, 5);
+
+}
+
+h1{
+    text-align: center;
+    font-size: 10em;
+    color: rgb(171, 25, 201);
+    margin: 10px;
+}
+h2{
+    text-align: center;
+    display: block;
+    color:rgb(171, 25, 201);
+    margin: 10px;
 }
